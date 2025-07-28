@@ -1,209 +1,59 @@
-/* Reset dasar */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f6f8;
-    color: #333;
+    font-family: Arial, sans-serif;
+    background-color: #375b8b;
 }
 
-/* Navbar */
-header {
-    background-color: #007BFF;
+.container {
+    width: 80%;
+    margin: 40px auto;
+    background-color: #7093d3;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.navbar {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 15px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
+.header {
+    background-color: #8270d1;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
 
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+.menu {
+    background-color: #6454c0;
+    padding: 10px;
 }
 
-.nav-links {
+.menu ul {
     list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-    color: #ffc107;
-}
-
-/* Hero Section */
-.hero {
-    background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
-    height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-align: center;
-    padding: 0 20px;
-}
-
-.hero-content h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
-}
-
-.hero-content p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
-}
-
-.btn-primary {
-    background-color: #ffc107;
-    color: #333;
-    padding: 12px 30px;
-    font-weight: bold;
-    border-radius: 30px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.btn-primary:hover {
-    background-color: #e0a800;
-}
-
-/* Features Section */
-.features {
-    max-width: 1100px;
-    margin: 50px auto;
-    display: flex;
-    justify-content: space-around;
-    padding: 0 20px;
-    gap: 20px;
-}
-
-.feature {
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    flex: 1;
-    text-align: center;
-    transition: transform 0.3s ease;
-}
-
-.feature:hover {
-    transform: translateY(-10px);
-}
-
-.feature h2 {
-    margin-bottom: 15px;
-    color: #007BFF;
-}
-
-/* Footer */
-footer {
-    background-color: #222;
-    color: #eee;
-    text-align: center;
-    padding: 15px 20px;
-    font-size: 0.9rem;
-    margin-top: 50px;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    .features {
-        flex-direction: column;
-        align-items: center;
-    }
-    .feature {
-        width: 100%;
-        max-width: 400px;
-    }
-    .hero-content h1 {
-        font-size: 2.2rem;
-    }
-}
-
-
-
-
-/* Umum */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f6f6f6;
-    color: #333;
 }
 
-header {
-    background-color: #4a90e2;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px;
 }
 
-main {
-    padding: 30px;
+.menu a {
+    color: #fff;
+    text-decoration: none;
 }
 
-.novel-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+.content {
+    padding: 20px;
 }
 
-.novel {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    width: 300px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    overflow: hidden;
-    transition: transform 0.2s ease;
-}
-
-.novel:hover {
-    transform: scale(1.02);
-}
-
-.novel img {
+.content img {
     width: 100%;
-    height: auto;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
-.novel-info {
-    padding: 15px;
-}
-
-.novel-info h2 {
-    margin-top: 0;
-    color: #4a90e2;
-}
-
-footer {
-    background-color: #eee;
+.footer {
+    background-color: #5965ac;
+    color: #fff;
+    padding: 10px;
     text-align: center;
-    padding: 15px;
-    font-size: 14px;
-    margin-top: 40px;
+    clear: both;
 }
