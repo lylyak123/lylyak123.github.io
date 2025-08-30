@@ -1,32 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
-    <link rel="stylesheet" href="style.css">
+<html lang="id">
 <head>
-    <title>suka</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MY NOVEL BOOKS</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <script>
-        var name = prompt("What Your Name?", "");
-        document.write("<p><b>Hello </b>" + name + "</p>");
-        
-    </script>
-    <div class="container">
-        <div class="header">
-            <h1>Web Sederhana</h1>
-        </div>
-        <div class="menu">
-            <ul>
-                <li><a href="cntc.html">ohayo</a></li>            
-                <li><a href="#">anyoung</a></li>                
+    <header>
+        <nav class="navbar">
+            <div class="logo">MY NOVEL BOOKS</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Tentang</a></li>
+                <li><a href="#">User</a></li>
             </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Selamat Datang di My Novel books</h1>
+            <p>Menyediakan berbagai jenis bacaan novel menarik untuk dibaca.</p>
+            <p>NIKMATI WAKTU BACA NOVEL YANG ANDA SUKAI DISINI!</p>
         </div>
-        <div class="content">
-            <h2>Selamat Datang di web serba serbi zaskia</h2>
-            <p>Mau lihat apa?</p>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h2>Genre</h2>
+            <p>Ribuan genre novel yang bisa anda pilih untuk dinikmati.</p>
         </div>
-        <div class="footer">
-            <p>&copy; apapun tentangku akan di lampirkan di sini</p>
+        <div class="feature">
+            <h2>Pengalaman</h2>
+            <p>Coba Pengalaman baru membaca di My Novel Books.</p>
         </div>
-    </div>
+        <div class="feature">
+            <h2>Kesan</h2>
+            <p>Dapatkan kesan yang tak terlupakan dari novel yang kamu baca</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 MyNovelBooks.</p>
+    </footer>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Buku Novel</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        var name = prompt("Whats your name?" , "");
+            document.write("<h3><b>Hello </b>" + name + "</h3>");
+            document.write("<p>Web ini berisi semua bacaan novel terbaru yang pastinya membuat anda senang membaca dan seperti merasakan secara langsung keadaan di dalam novel yang anda baca.</p>");
+            document.write("<h3><b>Genre Novel : </b></h3>");
+            document.write("<p> 1. Fantasi</p>");
+            document.write("<p> 2. Petualangan</p>");
+            document.write("<p> 3. Romance</p>");
+        alert ("selamat datang di My Novel Books " + name);
+    </script>
+</head>
+<body>
+        
+    <header>
+        <h1>Daftar Buku Novel</h1>
+    </header>
+
+    <main>
+        <section class="novel-list">
+            <article class="novel">
+                <div class="novel-info">
+                    <h2>Laskar Pelangi</h2>
+                    <p><strong>Penulis:</strong> Andrea Hirata</p>
+                    <p>Sebuah kisah inspiratif dari Belitung yang penuh semangat dan harapan anak-anak miskin meraih pendidikan.</p>
+                    <p><strong>Genre:</strong> Perjalanan Hidup</p>
+                </div>
+            </article>
+
+            <article class="novel">
+                <div class="novel-info">
+                    <h2>Bumi</h2>
+                    <p><strong>Penulis:</strong> Tere Liye</p>
+                    <p>Petualangan remaja bernama Raib, Ali, dan Seli yang memiliki kekuatan misterius di dunia paralel.</p>
+                    <p><strong>Genre:</strong> Petualangan Fantasi</p>
+                </div>
+            </article>
+
+            <article class="novel">
+                <div class="novel-info">
+                    <h2>Perahu Kertas</h2>
+                    <p><strong>Penulis:</strong> Dee Lestari</p>
+                    <p>Cerita cinta remaja yang unik dan penuh makna dalam kehidupan sehari-hari.</p>
+                    <p><strong>Genre:</strong> Romance</p>
+                </div>
+            </article>
+
+            <article class="novel">
+                <div class="novel-info">
+                    <h2>Blockade</h2>
+                    <p><strong>Penulis:</strong> Citra Kastari</p>
+                    <p>Cerita teka-teki sebuah kejadian besar yang meningggalkan tanda tanya disetiap kejadiannya.</p>
+                    <p><strong>Genre:</strong> Fiksi ilmiah</p>
+                </div>
+            </article>
+
+            <article class="novel">
+                <div class="novel-info">
+                    <h2>00.00</h2>
+                    <p><strong>Penulis:</strong> Sinta Lerama</p>
+                    <p>Cerita cinta remaja yang unik dan penuh makna dalam kehidupan sehari-hari.</p>
+                    <p><strong>Genre:</strong>Romance</p>
+                </div>
+            </article>
+        </section>
+     </main>
+    
+
+
+    <footer>
+        <p>&copy; 2025 MyNovelBooks | Dibuat oleh Nur Laelya</p>
+    </footer>
 </body>
 </html>
